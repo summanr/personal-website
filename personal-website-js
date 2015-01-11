@@ -1,0 +1,68 @@
+var main = function() {
+  $('.dropdown-toggle').click(function() {
+    $('.dropdown-menu').toggle();
+  });
+  $(document).ready(function() {
+    $('.nav-tabs > li > a').click(function(event){
+    event.preventDefault();//stop browser to take action for clicked anchor
+ 
+    //get displaying tab content jQuery selector
+    var active_tab_selector = $('.nav-tabs > li.active > a').attr('href');         
+ 
+    //find actived navigation and remove 'active' css
+    var actived_nav = $('.nav-tabs > li.active');
+    actived_nav.removeClass('active');
+ 
+    //add 'active' css into clicked navigation
+    $(this).parents('li').addClass('active');
+ 
+    //hide displaying tab content
+    $(active_tab_selector).removeClass('active');
+    $(active_tab_selector).addClass('hide');
+ 
+    //show target tab content
+    var target_tab_selector = $(this).attr('href');
+    $(target_tab_selector).fadeOut(600).removeClass('hide');
+    $(target_tab_selector).fadeIn(600).addClass('active');
+   });
+  });
+  $('.arrow-prev').click(function(){
+    var currentSlide = $('.active-slide');
+    var prevSlide = currentSlide.prev();
+
+    var currentDot = $('.active-dot');
+    var prevDot = currentDot.prev();
+
+    if(prevSlide.length === 0) {
+      prevSlide = $('.slide').last();
+      prevDot = $('.dot').last();
+    }
+    currentSlide.fadeOut(600).removeClass('active-slide');
+    prevSlide.fadeIn(600).addClass('active-slide');
+
+    currentDot.removeClass('active-dot');
+    prevDot.addClass('active-dot');
+  });
+  $('.arrow-next').click(function() {
+    var currentSlide = $('.active-slide');
+    var nextSlide = currentSlide.next();
+
+    var currentDot = $('.active-dot');
+    var nextDot = currentDot.next();
+
+    if(nextSlide.length === 0) {
+      nextSlide = $('.slide').first();
+      nextDot = $('.dot').first();
+    }
+      
+    currentSlide.fadeOut(600).removeClass('active-slide');
+    nextSlide.fadeIn(600).addClass('active-slide');
+
+    currentDot.removeClass('active-dot');
+    nextDot.addClass('active-dot');
+  });
+  $(document).ready(function () {
+    $(".nav-tabs").tabs({ selected: 1 });
+  });
+};
+$(document).ready(main);
