@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet'>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>
+    <script type='text/javascript' src='app.js'></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.js"></script>
+  </head>
+  <body>
+  	<div id='main-page'>
+	  <img src='http://i.istockimg.com/file_thumbview_approve/31235432/2/stock-photo-31235432-blank-notepad-with-a-pencil-laying-on-old-wooden-table.jpg' style='position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; z-index: -1;'>
+	  <div id='name-start'>
+		<a href='#home'><h1>Rafia Summan</h1></a>
+		<link  href="http://fonts.googleapis.com/css?family=Reenie+Beanie:regular" rel="stylesheet" type="text/css">
+	  </div>
+	</div>
+	<div id='header'>
+		<ul class="nav nav-tabs">
+			<li id='active'><a href='#home'>Home</a></li>
+	        <li id='choice-1'><a href='#aboutme'>About Me</a></li>
+	        <li id='choice-2'><a href="#workexperience">Work Experience</a></li>
+	        <li id='choice-3'><a href="#research">Research</a></li>
+	        <li id='choice-4'><a href="#project">Projects</a></li>
+	        <li id='choice-5'><a href="#coursework">Course Work</a></li>
+	        <li id='choice-6'><a href="#skills">Skills</a></li>
+	        <li id='contact'><a href='#contact_options'>Contact</a></li>
+	        <li id='resume'><a href='#resume'>Resume</a></li>
+	    </ul>
+	</div>
+	<section id ="home" class="tab-content">
+	    <div class="slider">
+	        <div class="slide active-slide">
+	            <div class="container">
+	                <div class="row">
+	                    <div class="slide-copy col-xs-5">
+	                        <h1>B.S. Biomedical Engineering</h1>
+	                        <p>The study of fundamental biological and physiological processes and the study of engineering methods.</p>
+	                    </div>
+	                    <div class="slide-img col-xs-7">
+	                        <img src="http://static.wixstatic.com/media/0cbf24_9a6fd21c2e0545096dc48f80c3bbc105.jpg_srz_245_350_85_22_0.50_1.20_0.00_jpg_srz" width="500px" height='300px'>
+	                    </div>
+	                </div>
+	            </div>
+	         </div>
+	        <div class="slide">
+	            <div class="container">
+	                <div class="row">
+	                    <div class="slide-copy col-xs-5">
+	                      <h1>Clinical Research Consultant</h1>
+	                      <p>My duties include performing clinical monitoring, observing surgical procedures, and analyzing experimental data.</p>
+	                    </div>
+	                    <div class="slide-img1 col-xs-7">
+	                        <img src="https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/preview505/000/343/191/343191-f7d0cb0c1f4d68030923d7012262495f1def2325.jpg?1403722504" width="500px" height='300px'>
+	                    </div>
+	                </div>
+	            </div>      
+	        </div>
+	        <div class="slide">
+	            <div class="container">
+	                <div class="row">
+	                    <div class="slide-copy col-xs-5">
+	                      <h1>Genomic Biocompatibility Experiment</h1>
+	                      <p>The objective of the project is to implement a statistical based software application that allows researchers to determine the credibility and reliability of the experimental data.</p>
+	                    </div>
+	                    <div class="slide-img col-xs-7">
+	                        <img src="http://blogs.ancestry.com/ancestry/files/2014/06/DNA_BlueTube-2.png" width="500px" height='300px'>
+	                    </div>
+	                </div>
+	            </div>      
+	        </div>
+	    </div>
+	    <div class="slider-nav">
+	        <a href="#" class="arrow-prev"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-prev.png"></a>
+	        <ul class="slider-dots">
+	            <li class="dot active-dot">&bull;</li>              
+	            <li class="dot">&bull;</li>
+	            <li class="dot">&bull;</li>
+	        </ul>
+	        <a href="#" class="arrow-next">        
+	        <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-next.png">
+	        </a>
+	    </div> 
+	</section>
+	<section id='rafia'>
+		<div>
+			<ul>
+			  	<li id='aboutme'>
+			  	   	<div>
+			  	   		<img src='http://i.istockimg.com/file_thumbview_approve/16130599/2/stock-photo-16130599-blank-book.jpg' style='position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; z-index: -1;'>
+			  	   		<h1>About Me!</h1>
+			  	   		<p>I am a Biomedical Engineer graduate from San Jose State University with good academic standing and strong professional experience. I have expertise in Python, HTML, CSS, and Javascript. I am familiar with design and analytical applications, such as AutoCad, Creo 2.0 Parametric, Matlab, and Minitab. I have in depth understanding of Biomedical procedures like PCR, Electrophoresis, ELISA, Western Blotting, and Spectrophotometry. Also, I have experience operating laboratory equipments like Microscope, Spectrophotometer, Centrifuge, Charpy Impact Tester, Oscilloscope, Function Generator, and Voltmeter. Through intensive coursework, I have gained insights into Biomedical Applications, Genomics, Physiology, and Programming.
+			  	   		To further enhance my professional and research skills and in quest for learning, I interned at Gauss Surgical as a Clinical Research Consultant. During this period, I was involved in clinical studies and FDA documentations. The unique startup experience taught me analyzing solution for problems, breaking down tasks, researching for solution, and learning required things on fly.
+			  	   		About me, I am a self starter and a motivated individual with an ability of accomplishing tasks independently. Through my education and work experience, I have strengthened my interpersonal and presentation skills.</p>
+			  	   	</div> 
+			  	</li>
+			  	<li id='workExperience'>
+			  		<div>
+			  			<img src='http://i.istockimg.com/file_thumbview_approve/16130599/2/stock-photo-16130599-blank-book.jpg' style='position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; z-index: -1;'>
+			  			<h1>Work Experience</h1>
+			  			<h2>Clinical Research Consulant -</h2>
+			  			<a href='http://www.gausssurgical.com/#fda'><h3>Gauss Surgical Inc.</h3></a>
+			  			<ul id='duration'>February 2014 - Present</ul> 
+			  			<ul>
+			  				<li id='bullet1'>Observe surgical procedures at Santa Clara Valley Medical Center and conduct data collection in the operating rooms.</li>
+			  				<li id='bullet2'>Conduct experiments to study the nature of blood at different hemoglobin concentrations.</li>
+			  				<li id='bullet3'>Analyze experimental data and interpret results to write reports and summaries of findings.</li>
+			  			</ul>
+			  			<h4>Engineering Intern -</h4>
+			  			<a href='http://www.netapp.com/us/'><h5>NetApp Inc.</h5></a>
+			  			<ul id='duration1'>June 2013 - August 2013</ul>
+			  			<ul>
+			  				<li id='bullet4'>Performed client provisioning.</li>
+			  				<li id='bullet5'>Conducted OS installations.</li>
+			  				<li id='bullet6'>Asset updates to Engineering Lab Management Systems and to the remote connectivity scripts.</li>
+			  			</ul>
+			  			<h6>Engineering Intern -</h6>
+			  			<a id='company' href='https://jpresearch.com/'><h7>JP Research Inc.</h7></a>
+			  			<ul id='duration2'>June 2012- June 2012</ul>
+			  			<ul>
+			  				<li id='bullet7'>Analyzed automotive accidental data to categorize and to file corresponding descriptive codes in a database.</li>
+			  			</ul>
+			  		</div>
+			  	</li>
+			  	<li id='research'>
+			  		<div>
+			  			<img src='http://i.istockimg.com/file_thumbview_approve/16130599/2/stock-photo-16130599-blank-book.jpg' style='position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; z-index: -1;'>
+			  			<h1>Research</h1>
+			  			<h2>Genomic Biocompatibility Project -</h2>
+			  			<a href='www.sjsu.edu'><h3>SJSU</h3></a>
+			  			<ul id='duration3'>Summer 2014 - Spring 2015</ul>
+			  			<ul id='background'>Background: Almost all medical implants contain titanium, however, it is found that over the time these implants cause some kind of disease; therefore, the project was initiated to determine if the exposure of titanium causes DNA damage and result in some kind of disease.</ul>
+			  			<ul>
+			  				<li id='bullet1'>Perform PCR, Gel Electrophoresis, and Spectrophotometry to determine if titanium dioxide binds with DNA</li>
+			  				<li id='bullet2'>Implement a Python based statistical software application that allows researchers to determine the credibility and reliability of the experimental data.</li>
+			  			</ul>
+			  		</div>
+			  	</li>
+			  	<li id='project'>
+			  		<div>
+			  			<img src='http://i.istockimg.com/file_thumbview_approve/16130599/2/stock-photo-16130599-blank-book.jpg' style='position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; z-index: -1;'>
+			  			<h1>Project</h1>
+			  			<h2>Longevity Gene Database</h2>
+			  			<p id='project1'>The main objective of this project was to create a Python and sqlite3 based database that holds the most significant longevity genes. The research on each gene included the functionality, gene family, chromosomal location, and the sequence. The database has features like listing all of the genes, displaying full information, accessing partial information, matching the sequences, and comparing the DNA sequences of two genes.</p>
+			  			<h3>Keratoprosthesis</h3>
+			  			<p id='project2'>A group project focused on preparing FDA regulation documents for an artificial cornea, Class II device. The following documents were created from scratch: Device Description, FDA Classification, Design and Development, Quality Manual, Risk Management Plan, Risk Management Report, Safety Requirements, and Fault Tree Analysis(FTA).</p>
+			  			<a id='morebutton' href='#projectslide2'>More Projects</a>
+			  		</div>
+			  	</li>
+			  	<li id='projectslide2'>
+			  		<div>
+				  		<img src='http://i.istockimg.com/file_thumbview_approve/16130599/2/stock-photo-16130599-blank-book.jpg' style='position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; z-index: -1;'>
+				  		<h4>Kanamycin</h4>
+					  	<p id='project3'>Proved Kanamycin to be effective for sensitive strain of E.coli. Plating of a Serial Dilution of the Bacterial Strain DH5alpha and the antibiotic were prepared. E.coli cell growth was studied under different Kanamycin concentrations.</p>
+					 	<h5>Laser Security Box</h5>
+					  	<p id='project4'>An alarming system for a security box was constructed using micro-controller development board, Xbee, electrical wires, AA batteries, serial LCD, laser, N channel MOSFET, 100 kilo-ohms resistor, and a robot.</p>
+				  	</div>
+			  	</li>  
+			  	<li id='coursework'>
+			  		<div>
+			  			<img src='http://i.istockimg.com/file_thumbview_approve/16130599/2/stock-photo-16130599-blank-book.jpg' style='position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; z-index: -1;'>
+			  			<h1>Coursework</h1>
+			  			<h2>Biomedical Engineering Courses</h2>
+			  				<ul id='bme'>
+			  					<li>Next Generation Sequencing</li>
+			  					<li>Bioinformatics Computational Tools</li>
+			  					<li>Biotransport Phenomona</li>
+			  					<li>Human Genetics</li>
+			  					<li>Regulatory, Design and Quality Requirements</li>
+			  					<li>Physiology for Engineers</li>
+			  				</ul>
+			  			<h3>General Engineering Courses</h3>
+			  				<ul id='GE'>
+			  					<li>Statistics for Engineers</li>
+			  					<li>Design and Graphics</li>
+			  					<li>Programming Concepts and Methodology</li>
+			  					<li>Statics</li>
+			  					<li>Intro to Material Engineering</li>
+			  					<li>Circuit Analysis</li>
+			  				</ul>
+			  			<h4>General Courses</h4>
+			  				<ul id='GC'>
+			  					<li>Calculus I, II, III</li>
+			  					<li>Differential Equations</li>
+			  					<li>Foundations of Biodiversity</li>
+			  					<li>Foundations of Cellular and Systems Biology</li>
+			  					<li>General Chemistry</li>
+			  					<li>Organic Chemistry</li>
+			  					<li>General Physics</li>
+			  					<li>Electricity and Magnetism</li>
+			  				</ul>
+			  		</div>
+			  	</li>
+			  	<li id='skills'>
+			  		<div>
+			  			<img src='http://i.istockimg.com/file_thumbview_approve/16130599/2/stock-photo-16130599-blank-book.jpg' style='position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; z-index: -1;'>
+			  			<h1>Skills</h1>
+			  			<h2>Programming Languages</h2>
+			  				<ul id='PL'>
+			  					<li>Python</li>
+			  					<li>HTML</li>
+			  					<li>CSS</li>
+			  					<li>JavaScript</li>
+			  				</ul>
+			  			<h3>Design and Analytical Applications</h3>
+			  				<ul id='DAA'>
+			  					<li>AutoCad</li>
+			  					<li>Creo 2.0 Parametric</li>
+			  					<li>Matlab</li>
+			  					<li>Minitab</li>
+			 					<li>Velvet</li>
+			 				</ul>
+			 			<h4>Biomedical Procedures</h4>
+			 				<ul id='BP'>
+			 					<li>PCR</li>
+			 					<li>Gel Electrophoresis</li>
+			 					<li>ELISA</li>
+			 					<li>Western Blotting</li>
+			 					<li>Spectrophotometry</li>
+			 				</ul>
+			 		</div>
+			 	</li>
+			</ul>
+		</div> 
+		<div> 
+			<li id='contact_options'>
+				<img src='http://i.istockimg.com/file_thumbview_approve/39004052/2/stock-photo-39004052-vintage-green-phone.jpg' style='position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; z-index: -1;'>
+				<div>
+				 	<a id='image1' href='https://twitter.com/summanrafia'><img src='https://g.twimg.com/Twitter_logo_blue.png'></a>
+				 	<a id='image2' href='https://www.linkedin.com/profile/view?id=227130603&trk=nav_responsive_tab_profile'><img src='http://inhouseww.com/static/assets/imgs/icon-linkedin.png'></a>
+				 	<a id='image3' href='mailto:summanrafia@gmail.com'><img src='http://devilsworkshop.org/files/2010/12/gmail_logo_300X300.png'></a>
+			  	</div>
+			</li>
+		</div>
+		<div id='resume-content'>
+			<img src='http://i.istockimg.com/file_thumbview_approve/20179990/2/stock-photo-20179990-resume-skill.jpg' style='position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; z-index: -1;'>
+			<ul>
+				<a href='Personal_Website/resume.pdf'>Download PDF</a>
+			</ul>
+		</div>
+	</section>
+  </body>
+</html>
