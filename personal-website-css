@@ -1,29 +1,506 @@
-/.container {
-  width: 1500px;
+#name-start {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  font-weight: bold;
+  padding bottom: 10px;
+  font-size: 50px;
+  position: fixed;
+  top: 200px;
+  left: 650px;
+  text-align: center;
+  -webkit-transform: rotate(-20deg);
+  font-color: #000000;
 }
-
-
-/* Header */
-
-.header {
-  background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTS0Iz1g5BeySdpRpoBtlzFxyJ2DTK06AQ4294hdsJJgr94IQUb");
-  border-bottom: 1px solid #ddd;
-  
-  font-family: 'Oswald', sans-serif;
-  font-weight: 300;
-  
-  font-size: 17px;
-  padding: 15px;
-  height: 75px;
-}
-
-/* Menu */ 
-.header .name {
-  color: #FFFFFF;
+#contact h1{
   font-size: 24px;
-  float: right;
+  font-weight: bold;
+  position: fixed;
+  top: 280px;
+  left: 1100px;
 }
-
+#rafia {
+  background-color: #FF6600;
+}
+#aboutme h1 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left:300px;
+  top: 300px;
+  position: fixed;
+  font-weight: bold;
+  font-size: 48px;
+  text-decoration: underline;
+}
+#aboutme p {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 650px;
+  top: 80px;
+  position: fixed;
+  font-size: 17px;
+  right: 200px;
+  font-weight: bold;
+}
+#morebutton {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 24px;
+  top: 500px;
+  left: 800px;
+  position: fixed;
+}
+#workExperience h1 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left:250px;
+  top: 300px;
+  position: fixed;
+  font-weight: bold;
+  font-size: 48px;
+  text-decoration: underline;
+}
+#workExperience h2 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 650px;
+  top: 80px;
+  position: fixed;
+  font-size: 20px;
+  right: 150px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#workExperience h3 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 890px;
+  top: 80px;
+  position: fixed;
+  font-size: 20px;
+  right: 150px;
+  font-weight: bold;
+}
+#workExperience #duration {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 650px;
+  top: 120px;
+  position: fixed;
+  font-size: 17px;
+  right: 150px;
+  font-weight: bold;
+}
+#workExperience #bullet1 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 680px;
+  top: 140px;
+  position: fixed;
+  font-size: 17px;
+  right: 200px;
+  font-weight: bold;
+}
+#workExperience #bullet2 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 680px;
+  top: 210px;
+  position: fixed;
+  font-size: 17px;
+  right: 200px;
+  font-weight: bold;
+}
+#workExperience #bullet3 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 680px;
+  top: 260px;
+  position: fixed;
+  font-size: 17px;
+  right: 200px;
+  font-weight: bold;
+}
+#workExperience h4 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 650px;
+  top: 330px;
+  position: fixed;
+  font-size: 20px;
+  right: 200px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#workExperience h5 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 850px;
+  top: 330px;
+  position: fixed;
+  font-size: 20px;
+  right: 200px;
+  font-weight: bold;
+}
+#workExperience #duration1 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 650px;
+  top: 360px;
+  position: fixed;
+  font-size: 17px;
+  right: 200px;
+  font-weight: bold;
+}
+#workExperience #bullet4 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 680px;
+  top: 380px;
+  position: fixed;
+  font-size: 17px;
+  right: 200px;
+  font-weight: bold;
+}
+#workExperience #bullet5 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 680px;
+  top: 400px;
+  position: fixed;
+  font-size: 17px;
+  right: 200px;
+  font-weight: bold;
+}
+#workExperience #bullet6 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 680px;
+  top: 420px;
+  position: fixed;
+  font-size: 17px;
+  right: 200px;
+  font-weight: bold;
+}
+#workExperience h6 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 650px;
+  top: 480px;
+  position: fixed;
+  font-size: 20px;
+  right: 200px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#workExperience h7 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 850px;
+  top: 485px;
+  position: fixed;
+  font-size: 20px;
+  right: 200px;
+  font-weight: bold;
+}
+#workExperience #duration2 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 650px;
+  top: 520px;
+  position: fixed;
+  font-size: 17px;
+  right: 200px;
+  font-weight: bold;
+}
+#workExperience #bullet7 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 680px;
+  top: 540px;
+  position: fixed;
+  font-size: 17px;
+  right: 200px;
+  font-weight: bold;
+}
+#research h1 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left:250px;
+  top: 300px;
+  position: fixed;
+  font-weight: bold;
+  font-size: 48px;
+  text-decoration: underline;
+}
+#research h2 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 650px;
+  top: 80px;
+  position: fixed;
+  font-size: 20px;
+  right: 200px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#research h3 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 930px;
+  top: 80px;
+  position: fixed;
+  font-size: 20px;
+  right: 200px;
+  font-weight: bold;
+}
+#research #duration3 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 650px;
+  top: 120px;
+  position: fixed;
+  font-size: 17px;
+  right: 200px;
+  font-weight: bold;
+}
+#research #background {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 650px;
+  top: 150px;
+  position: fixed;
+  font-size: 17px;
+  right: 250px;
+  font-weight: bold;
+}
+#research #bullet1 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 680px;
+  top: 290px;
+  position: fixed;
+  font-size: 17px;
+  right: 230px;
+  font-weight: bold;
+}
+#research #bullet2 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 680px;
+  top: 340px;
+  position: fixed;
+  font-size: 17px;
+  right: 200px;
+  font-weight: bold;
+}
+#project h1 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left:250px;
+  top: 300px;
+  position: fixed;
+  font-weight: bold;
+  font-size: 48px;
+  text-decoration: underline;
+}
+#project h2 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 650px;
+  top: 80px;
+  position: fixed;
+  font-size: 20px;
+  right: 200px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#project #project1 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 680px;
+  top: 120px;
+  position: fixed;
+  font-size: 17px;
+  right: 230px;
+  font-weight: bold;
+}
+#project h3 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 650px;
+  top: 300px;
+  position: fixed;
+  font-size: 20px;
+  right: 200px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#project #project2 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 680px;
+  top: 350px;
+  position: fixed;
+  font-size: 17px;
+  right: 230px;
+  font-weight: bold;
+}
+#projectslide2 h4 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 650px;
+  top: 80px;
+  position: fixed;
+  font-size: 20px;
+  right: 200px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#projectslide2 #project3 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 680px;
+  top: 120px;
+  position: fixed;
+  font-size: 17px;
+  right: 230px;
+  font-weight: bold;
+}
+#projectslide2 h5 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 650px;
+  top: 300px;
+  position: fixed;
+  font-size: 20px;
+  right: 200px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#projectslide2 #project4 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 680px;
+  top: 330px;
+  position: fixed;
+  font-size: 17px;
+  right: 230px;
+  font-weight: bold;
+}
+#coursework h1 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left:250px;
+  top: 300px;
+  position: fixed;
+  font-weight: bold;
+  font-size: 48px;
+  text-decoration: underline;
+}
+#coursework h2 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 700px;
+  top: 80px;
+  position: fixed;
+  font-size: 20px;
+  right: 200px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#coursework #bme {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 700px;
+  top: 125px;
+  position: fixed;
+  font-size: 17px;
+  right: 200px;
+  font-weight: bold;
+}
+#coursework h3 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 700px;
+  top: 250px;
+  position: fixed;
+  font-size: 20px;
+  right: 200px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#coursework #GE {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 710px;
+  top: 300px;
+  position: fixed;
+  font-size: 17px;
+  right: 200px;
+  font-weight: bold;
+}
+#coursework h4 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 700px;
+  top: 440px;
+  position: fixed;
+  font-size: 20px;
+  right: 200px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#coursework #GC {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 710px;
+  top: 480px;
+  position: fixed;
+  font-size: 17px;
+  right: 200px;
+  font-weight: bold;
+}
+#skills h1 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left:250px;
+  top: 300px;
+  position: fixed;
+  font-weight: bold;
+  font-size: 48px;
+  text-decoration: underline;
+}
+#skills h2 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 700px;
+  top: 80px;
+  position: fixed;
+  font-size: 20px;
+  right: 200px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#skills #PL {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 700px;
+  top: 125px;
+  position: fixed;
+  font-size: 17px;
+  right: 200px;
+  font-weight: bold;
+}
+#skills h3 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 700px;
+  top: 250px;
+  position: fixed;
+  font-size: 20px;
+  right: 200px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#skills #DAA {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 710px;
+  top: 300px;
+  position: fixed;
+  font-size: 17px;
+  right: 200px;
+  font-weight: bold;
+}
+#skills h4 {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 700px;
+  top: 440px;
+  position: fixed;
+  font-size: 20px;
+  right: 200px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#skills #BP {
+  font-family: "Reenie Beanie", arial, sans-serif;
+  left: 710px;
+  top: 480px;
+  position: fixed;
+  font-size: 17px;
+  right: 200px;
+  font-weight: bold;
+}
+#contact_options img {
+  width: 100px;
+  height: 100px;
+}
+#image1 {
+  top: 80px;
+  left: 800px;
+  position: fixed;
+}
+#image2 {
+  top: 300px;
+  left: 800px;
+  position: fixed;
+}
+#image3 {
+  top: 500px;
+  left: 800px;
+  position: fixed;
+}
 .header .nav nav-tabs{
   float: left;
   list-style: none;
@@ -40,27 +517,13 @@
 .nav nav-tabs a {
   font-color: #080808; 
 }
-
-/* Dropdown */
-
-.dropdown-menu {
-  font-size: 16px;
-  margin-top: 5px;
-  min-width: 105px;
+#home {
+  background-color: #FF6600;
+  position: fixed;
+  width: 100%;
+  height: 100%;
 }
-
-.dropdown-menu li a {
-  color: #898989;
-  padding: 6px 20px;
-  font-weight: 300;
-}
-
-
-/* Carousel */
-
 .slider {
-  /*background-image: url('http://www.franlo.co.uk/images/slider/websiteTemplates/webSliderBackground.jpg');*/
-  /*background-image: url('http://www.websitedesignisrael.com/background-gradient.gif');*/
   position: relative;
   height: 470px;
   border-bottom: 1px solid #ddd;
@@ -184,16 +647,14 @@
   color: #000000 ;
 }
 .footer {
-  background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTS0Iz1g5BeySdpRpoBtlzFxyJ2DTK06AQ4294hdsJJgr94IQUb");
   background-size: 1000px;
   height: 100px;
-  top: 0px;
-  position: relative;
+  top: 1000px;
+  position: fixed;
 }
 .footer .resume {
   margin-left: 580px;
   font-size: 24px;
-
 }
 .footer .buttons {
   width: 100%;
@@ -221,4 +682,9 @@ li {
 .tab-content.hide{
   display: none;
 }
- 
+#resume-content {
+  top: 100px;
+  left: 700px;
+  position: fixed;
+  font-size: 24px;
+}
