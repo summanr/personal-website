@@ -1,7 +1,288 @@
-var main = function() {
-  $('.dropdown-toggle').click(function() {
-    $('.dropdown-menu').toggle();
+$(document).ready(function(){
+  $('#home').hide();
+  $('#menu').hide();
+  $('#workExperience').hide();
+  $('#aboutme').hide();
+  $('#research').hide();
+  $('#project').hide();
+  $('#projectslide2').hide();
+  $('#coursework').hide();
+  $('#skills').hide();
+  $('#contact_options').hide();
+  $('#header').hide();
+  $('#resume-content').hide();
+  $('#name-start').click(function() {
+    $('#main-page').hide();
+    $('#menu').hide();
+    $('#workExperience').hide();
+    $('#aboutme').hide();
+    $('#research').hide();
+    $('#project').hide();
+    $('#projectslide2').hide();
+    $('#coursework').hide();
+    $('#skills').hide();
+    $('#contact_options').hide();
+    $('#resume-content').hide();
+    $('#header').show();
+    $('#home').show();
   });
+  $('#active').click(function() {
+    $('#menu').hide();
+    $('#workExperience').hide();
+    $('#aboutme').hide();
+    $('#research').hide();
+    $('#project').hide();
+    $('#projectslide2').hide();
+    $('#coursework').hide();
+    $('#skills').hide();
+    $('#contact_options').hide();
+    $('#resume-content').hide();
+    $('#header').show();
+    $('#main-page').hide();
+    $('#home').show();
+  })
+  $('#choice-1').click(function() {
+    $('#main-page').hide();
+    $('#menu').hide();
+    $('#workExperience').hide();
+    $('#research').hide();
+    $('#project').hide();
+    $('#projectslide2').hide();
+    $('#coursework').hide();
+    $('#skills').hide();
+    $('#contact_options').hide();
+    $('#resume-content').hide();
+    $('#home').hide();
+    $('#aboutme').show();
+    $('#header').show();
+  });
+  $('#choice-2').click(function() {
+    $('#main-page').hide();
+    $('#menu').hide();
+    $('#research').hide();
+    $('#project').hide();
+    $('#projectslide2').hide();
+    $('#coursework').hide();
+    $('#skills').hide();
+    $('#contact_options').hide();
+    $('#resume-content').hide();
+    $('#home').hide();
+    $('#aboutme').hide();
+    $('#header').show();
+    $('#workExperience').show();
+  });
+  $('#choice-3').click(function() {
+    $('#main-page').hide();
+    $('#menu').hide();
+    $('#project').hide();
+    $('#projectslide2').hide();
+    $('#coursework').hide();
+    $('#skills').hide();
+    $('#contact_options').hide();
+    $('#resume-content').hide();
+    $('#home').hide();
+    $('#aboutme').hide();
+    $('#workExperience').hide();
+    $('#home').hide();
+    $('#research').show();
+    $('#header').show();
+  });
+  $('#choice-4').click(function() {
+    $('#main-page').hide();
+    $('#menu').hide();
+    $('#project').hide();
+    $('#projectslide2').hide();
+    $('#coursework').hide();
+    $('#skills').hide();
+    $('#contact_options').hide();
+    $('#resume-content').hide();
+    $('#home').hide();
+    $('#aboutme').hide();
+    $('#workExperience').hide();
+    $('#home').hide();
+    $('#header').show();
+    $('#research').hide();
+    $('#project').show();
+  });
+  $('#choice-5').click(function() {
+    $('#main-page').hide();
+    $('#menu').hide();
+    $('#project').hide();
+    $('#projectslide2').hide();
+    $('#coursework').hide();
+    $('#skills').hide();
+    $('#contact_options').hide();
+    $('#resume-content').hide();
+    $('#home').hide();
+    $('#aboutme').hide();
+    $('#workExperience').hide();
+    $('#home').hide();
+    $('#header').show();
+    $('#research').hide();
+    $('#project').hide();
+    $('#coursework').show();
+  })
+  $('#choice-6').click(function() {
+    $('#main-page').hide();
+    $('#menu').hide();
+    $('#project').hide();
+    $('#projectslide2').hide();
+    $('#coursework').hide();
+    $('#skills').hide();
+    $('#contact_options').hide();
+    $('#resume-content').hide();
+    $('#home').hide();
+    $('#aboutme').hide();
+    $('#workExperience').hide();
+    $('#home').hide();
+    $('#header').show();
+    $('#research').hide();
+    $('#project').hide();
+    $('#coursework').hide();
+    $('#home').hide();
+    $('#skills').show();
+  })
+  $('#morebutton').click(function(){
+    $('#main-page').hide();
+    $('#menu').hide();
+    $('#project').hide();
+    $('#projectslide2').hide();
+    $('#coursework').hide();
+    $('#skills').hide();
+    $('#contact_options').hide();
+    $('#resume-content').hide();
+    $('#home').hide();
+    $('#aboutme').hide();
+    $('#workExperience').hide();
+    $('#home').hide();
+    $('#header').show();
+    $('#research').hide();
+    $('#project').hide();
+    $('#coursework').hide();
+    $('#home').hide();
+    $('#skills').hide();
+    $('#home').hide();
+    $('#projectslide2').show();
+  })
+  $('#contact').click(function() {
+    $('#main-page').hide();
+    $('#menu').hide();
+    $('#project').hide();
+    $('#projectslide2').hide();
+    $('#coursework').hide();
+    $('#skills').hide();
+    $('#contact_options').hide();
+    $('#resume-content').hide();
+    $('#home').hide();
+    $('#aboutme').hide();
+    $('#workExperience').hide();
+    $('#home').hide();
+    $('#header').show();
+    $('#research').hide();
+    $('#project').hide();
+    $('#coursework').hide();
+    $('#home').hide();
+    $('#skills').hide();
+    $('#home').hide();
+    $('#projectslide2').hide();
+    $('#home').hide();
+    $('#contact_options').show();
+  })
+  $('#image1').click(function() {
+    $('#main-page').hide();
+    $('#menu').hide();
+    $('#project').hide();
+    $('#projectslide2').hide();
+    $('#coursework').hide();
+    $('#skills').hide();
+    $('#contact_options').hide();
+    $('#resume-content').hide();
+    $('#home').hide();
+    $('#aboutme').hide();
+    $('#workExperience').hide();
+    $('#home').hide();
+    $('#header').hide();
+    $('#research').hide();
+    $('#project').hide();
+    $('#coursework').hide();
+    $('#home').hide();
+    $('#skills').hide();
+    $('#home').hide();
+    $('#projectslide2').hide();
+    $('#home').hide();
+    $('#image1Content').show();
+  })
+  $('#image2').click(function() {
+    $('#main-page').hide();
+    $('#menu').hide();
+    $('#project').hide();
+    $('#projectslide2').hide();
+    $('#coursework').hide();
+    $('#skills').hide();
+    $('#contact_options').hide();
+    $('#resume-content').hide();
+    $('#home').hide();
+    $('#aboutme').hide();
+    $('#workExperience').hide();
+    $('#home').hide();
+    $('#header').hide();
+    $('#research').hide();
+    $('#project').hide();
+    $('#coursework').hide();
+    $('#home').hide();
+    $('#skills').hide();
+    $('#home').hide();
+    $('#projectslide2').hide();
+    $('#home').hide();
+    $('#image2Content').show();
+  })
+  $('#image3').click(function() {
+    $('#main-page').hide();
+    $('#menu').hide();
+    $('#project').hide();
+    $('#projectslide2').hide();
+    $('#coursework').hide();
+    $('#skills').hide();
+    $('#contact_options').hide();
+    $('#resume-content').hide();
+    $('#home').hide();
+    $('#aboutme').hide();
+    $('#workExperience').hide();
+    $('#home').hide();
+    $('#header').hide();
+    $('#research').hide();
+    $('#project').hide();
+    $('#coursework').hide();
+    $('#home').hide();
+    $('#skills').hide();
+    $('#home').hide();
+    $('#projectslide2').hide();
+    $('#home').hide();
+    $('#image3Content').show();
+  })
+  $('#resume').click(function() {
+    $('#main-page').hide();
+    $('#menu').hide();
+    $('#project').hide();
+    $('#projectslide2').hide();
+    $('#coursework').hide();
+    $('#skills').hide();
+    $('#contact_options').hide();
+    $('#resume-content').hide();
+    $('#home').hide();
+    $('#aboutme').hide();
+    $('#workExperience').hide();
+    $('#home').hide();
+    $('#header').show();
+    $('#research').hide();
+    $('#project').hide();
+    $('#coursework').hide();
+    $('#home').hide();
+    $('#skills').hide();
+    $('#home').hide();
+    $('#projectslide2').hide();
+    $('#resume-content').show();
+  })
   $(document).ready(function() {
     $('.nav-tabs > li > a').click(function(event){
     event.preventDefault();//stop browser to take action for clicked anchor
@@ -22,8 +303,8 @@ var main = function() {
  
     //show target tab content
     var target_tab_selector = $(this).attr('href');
-    $(target_tab_selector).fadeOut(600).removeClass('hide');
-    $(target_tab_selector).fadeIn(600).addClass('active');
+    $(target_tab_selector).removeClass('hide');
+    $(target_tab_selector).addClass('active');
    });
   });
   $('.arrow-prev').click(function(){
@@ -37,8 +318,8 @@ var main = function() {
       prevSlide = $('.slide').last();
       prevDot = $('.dot').last();
     }
-    currentSlide.fadeOut(600).removeClass('active-slide');
-    prevSlide.fadeIn(600).addClass('active-slide');
+    currentSlide.removeClass('active-slide');
+    prevSlide.addClass('active-slide');
 
     currentDot.removeClass('active-dot');
     prevDot.addClass('active-dot');
@@ -55,14 +336,10 @@ var main = function() {
       nextDot = $('.dot').first();
     }
       
-    currentSlide.fadeOut(600).removeClass('active-slide');
-    nextSlide.fadeIn(600).addClass('active-slide');
+    currentSlide.removeClass('active-slide');
+    nextSlide.addClass('active-slide');
 
     currentDot.removeClass('active-dot');
     nextDot.addClass('active-dot');
   });
-  $(document).ready(function () {
-    $(".nav-tabs").tabs({ selected: 1 });
-  });
-};
-$(document).ready(main);
+});
